@@ -33,16 +33,6 @@ void display_diamond()
 	glVertex3f(0.0f, 1.0f, 0.0f);
     //-----------------------------
 
-	glColor3f(0.4f, 0.4f, 0.4f);
-	glVertex3f(-1.0f, -1.0f, -1.0f);
-	glVertex3f(-1.0f, -1.0f, 1.0f);
-	glVertex3f(1.0f, -1.0f, 1.0f);
-
-	glColor3f(0.8f, 0.8f, 0.8f);
-	glVertex3f(1.0f, -1.0f, 1.0f);
-	glVertex3f(1.0f, -1.0f, -1.0f);
-	glVertex3f(-1.0f, -1.0f, -1.0f);
-
 	//bottom face front
 	glColor3f(0.8f, 0.8f, 0.8f);
 	glVertex3f(-1.0f, -1.0f, -1.0f);
